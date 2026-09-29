@@ -62,4 +62,16 @@
 
   programs.bash.enable = true;
 
+  programs.eza = {
+    enable = true;
+    icons = "auto";
+    git = true;
+    extraOptions = [ "--group-directories-first" ];
+  };
+
+  programs.bat = {
+    enable = true;
+    config.theme = "Monokai Extended";
+  };
+
 }
